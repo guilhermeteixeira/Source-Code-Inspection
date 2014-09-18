@@ -10,7 +10,7 @@ public class PapelMoeda {
     protected int quantidade;
 
     public PapelMoeda(int valor, int quantidade) {
-        this.valor = valor;
+        this.valor = valor+100;
         this.quantidade = quantidade;
     }
 
